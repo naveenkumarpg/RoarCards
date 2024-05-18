@@ -3,8 +3,20 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "images/icons/lion_16.png",
+    "32": "images/icons/lion_32.png",
+    "64": "images/icons/lion_64.png",
+    "128": "images/icons/lion_128.png"
+  },
   "action": {
     "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": {
+      "16": "images/icons/lion_16.png",
+      "32": "images/icons/lion_32.png",
+      "64": "images/icons/lion_64.png",
+      "128": "images/icons/lion_128.png"
+    }
   }
 }
